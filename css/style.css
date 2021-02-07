@@ -1186,8 +1186,8 @@ select.portfolio-filter-mobile {
 .testimonial-item .thumb {
   border-radius: 50%;
   overflow: hidden;
-  height: 90px;
-  width: 90px;
+  height: 150px;
+  width: 150px;
 }
 .testimonial-item .subtitle {
   color: #8B88B1;
