@@ -913,7 +913,6 @@ section {
 section.home {
   background: #353353;
   padding: 0;
-  height: 100vh;
   min-height: 100vh;
 }
 
@@ -922,7 +921,7 @@ section.home .intro {
   max-width: 540px;
   text-align: center;
   position: relative;
-  padding-top: 150px;
+  padding-top: 60px;
   z-index: 1;
 }
 
