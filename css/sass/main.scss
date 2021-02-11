@@ -36,6 +36,10 @@ section {
 	position: relative;
 }
 
+.space-bottom{
+	padding-bottom: 60px;
+}
+
 section.home {
 	background: $colordark;
 	padding: 0;
@@ -46,6 +50,7 @@ section.home {
 		max-width: 540px;
 		text-align: center;
 		position: relative;
+		    padding-top: 60px;
     	z-index: 1;
 		h1 {
 			color: #FFF;
@@ -87,8 +92,11 @@ section.home {
 }
 
 .section-title {
-	font-size: 36px;
+	font-size: 32px;
 	margin: 0;
+
+    display: inline-block;
+
 	margin-left: 14px;
 	position: relative;
 	&:before {

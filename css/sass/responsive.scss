@@ -63,8 +63,16 @@ only screen and (min-device-pixel-ratio: 1.5){
 
 @media only screen and (max-width: 768px) {
 	section.home {
-		padding: 300px 0;
+		padding: 40px 0;
+
 	}
+	section.home .intro h1 {
+    font-size: 36px;
+}
+section.home.light .intro span {
+    min-width: 115px;
+}
+
 	.portfolio-filter {
 		display: none;
 	}
@@ -109,6 +117,12 @@ only screen and (min-device-pixel-ratio: 1.5){
 			}
 		}
 	}
+	section.home .intro{
+		padding-top: 0;
+	}
+	.space-bottom {
+    padding-bottom: 30px;
+}
 }
 
 @media only screen and (min-width: 768px) {
@@ -190,6 +204,12 @@ only screen and (min-device-pixel-ratio: 1.5){
 			right: 10%;
 		}
 	}
+	section.home {
+    height: auto;
+	}
+	section.home.light .intro span {
+    font-size: 20px;
+}
 }
 
 @media only screen and (max-width: 360px) {
