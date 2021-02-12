@@ -57,8 +57,17 @@ only screen and (min-device-pixel-ratio: 1.5){
 	}
 }
 
-@media only screen and  (min-width: 991px) {
+@media only screen and (min-width: 991px) {
+    section.home.light .intro span {
+        font-size: 20px;
+    }
+}
 
+// RETINA DISPLAYS (HARRIS)
+@media only screen and (min-width: 1920px) {
+    section.home.light .intro span {
+        font-size: 25px;
+    }
 }
 
 @media only screen and (max-width: 768px) {

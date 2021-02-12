@@ -148,16 +148,6 @@
 		"oS": 0,
 		"sct": 0
 		},
-	"/css/sass/responsive.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/css/sass/responsive-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"/css/sass/responsive.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1093,7 +1083,8 @@
 	"displayValue": "harris-portfolio",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-pink",
-	"iconImageWasSetByUser": 0
+	"iconImageWasSetByUser": 0,
+	"lastBuiltDate": 634776515.913414
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
