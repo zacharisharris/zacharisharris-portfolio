@@ -63,21 +63,50 @@ only screen and (min-device-pixel-ratio: 1.5){
     }
 }
 
-// RETINA DISPLAYS (HARRIS)
+// HD DISPLAYS (HARRIS)
 @media only screen and (min-width: 1920px) {
     section.home.light .intro span {
-        font-size: 25px;
+        font-size: 26px;
     }
 }
 
-@media only screen and (max-width: 768px) {
-	section.home {
-		padding: 40px 0;
-
-	}
-	section.home .intro h1 {
-    font-size: 36px;
+@media only screen and (orientation: landscape) and (max-width: 896px) {
+    section.home.light .intro span {
+        font-size: 18px;
+    }
 }
+
+// HIDPI-XL && iMac RETINA 
+@media only screen and (min-width: 2000px) {
+    section.home.light .intro span {
+        font-size: 30px;
+    }
+}
+
+//@media	only screen and (-webkit-min-device-pixel-ratio: 1.3),
+//only screen and (-o-min-device-pixel-ratio: 13/10),
+//only screen and (min-resolution: 120dpi) {
+//    section.home.light .intro span {
+//        font-size: 50px;
+//    }
+//}
+
+///* Landscape (HARRIS) */
+//@media only screen and (orientation: landscape) {
+//    section.home.light .intro span {
+//        font-size: 17px;
+//    }
+//}
+
+
+@media only screen and (max-width: 768px) {
+    section.home {
+        padding: 40px 0;
+    }
+
+    section.home .intro h1 {
+        font-size: 36px;
+    }
 section.home.light .intro span {
     min-width: 115px;
 }

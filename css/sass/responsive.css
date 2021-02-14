@@ -50,13 +50,33 @@ body {
     padding: 7px 0;
   }
 }
+@media only screen and (min-width: 991px) {
+  section.home.light .intro span {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  section.home.light .intro span {
+    font-size: 90px;
+  }
+}
+/* Landscape (HARRIS) */
+@media only screen and (orientation: landscape) {
+  section.home.light .intro span {
+    font-size: 17px;
+  }
+}
 @media only screen and (max-width: 768px) {
   section.home {
     padding: 40px 0;
   }
 
+  section.home.light .intro span {
+    font-size: 18px;
+  }
+
   section.home .intro h1 {
-    font-size: 70px;
+    font-size: 36px;
   }
 
   section.home.light .intro span {
